@@ -12,17 +12,18 @@
   </head>
   <body>
 
-    
 
-    <div class="container-fluid" style="background-color: skyblue;">
-      <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="background-color: skyblue;">
-        <div class="container">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+<div class="container px-0">
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded " style=" background-color: skyblue;">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"><img src="medic.png"></a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
               <li class="nav-item active px-3">
                 <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
@@ -39,26 +40,22 @@
                 <a class="nav-link text-white" href="#">Team</a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link text-white" href="#">Appointment</a>
-              </li>
-              <li class="nav-item px-3">
                 <a class="nav-link text-white" href="#">Contact</a>
               </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0 active" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+      
     </div>
 
 
 
 
-
-     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <div id="myCarousel" class="carousel slide mb-sm-4" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -153,7 +150,7 @@
               <div class="card">
                 <img class="card-img-top" src="card3.jpg" alt="Card image cap">
                 <div class="card-block">
-                  <h4 class="card-title">Psycholo</h4>
+                  <h4 class="card-title">Psychology</h4>
                   <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -166,33 +163,82 @@
       </div>
 
 
+
+      <!--
+
+<div class="container">
+
+<ul class="nav nav-pills" id="myTab1">
+  <li class="nav-item">
+    <a class="nav-link active" href="#Dormitory">Dormitory</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#Orthopedic">Orthopedic</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#Sonogram">Sonogram</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#X-Ray">X-Ray</a>
+  </li>
+</ul>
+
+
+<div class="tab-content">
+  <div class="tab-pane active" id="Dormitory" role="tabpanel">
+    
+<div>
+  <img src="pill1.jpg">
+</div>
+
+
+ </div>
+
+  <div class="tab-pane" id="Orthopedic" role="tabpanel">
+    <div>
+  <img src="pill2.jpg">
+</div></div>
+  <div class="tab-pane" id="Sonogram" role="tabpanel">
+    <div>
+  <img src="pill3.jpg">
+</div></div>
+  <div class="tab-pane" id="X-Ray" role="tabpanel">
+    <img src="pill4.jpg">
+</div>
+  </div>
+</div>
+
+
+
+</div>  -->
+
+
 <footer class="container-fluid">
 
-          <div class="footer-bottom container">
+          <div class="ontainer footer-bottom c">
             <div class="row">
-              <div class="col-lg-4">
-                <div class="copyright-text">
+                <div class="col-sm-12 col-mg-6 col-lg-4 copyright-text">
                   <p>&copy; Copyright 2018. All Rights Reserved by
                     <a href="index.html">Medic</a>
                   </p>
-                </div>
               </div>
-              <div class="col-lg-4 offset-4 bottom-link">
-                <ul >
-                  <li>
-                    <a href="index.html">Home</a>
+              <div class="col-sm-12 col-mg-6 col-lg-4 offset-md-4 bottom-link">
+                <ul class="pl-0">
+                  <li >
+                    <a href="index.html" class="mr-sm-2">Home</a>
                   </li>
-                  <li>
-                    <a href="about.html">About</a>
+                  <li class="ml-sm-5">
+                    <a href="#">About</a>
                   </li>
-                  <li>
-                    <a href="contact.html">Contact</a>
+                  <li class="ml-sm-5">
+                    <a href="#">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 </footer>
+</div>
 
 
 
@@ -209,6 +255,10 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+   <script>
+    
+ $('#Dormitory').tab('show')
+</script>
   
   </body>
 </html>
