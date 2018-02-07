@@ -1,0 +1,17 @@
+body{
+	background-color:white;
+}
+.card-container{
+	background-color: #F1F8F9;
+}
+
+div.center{
+	text-align:center;
+}
+.footer-bottom{
+
+}
+.bottom-link ul li{
+list-style: none;
+display: inline;
+}
